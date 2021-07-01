@@ -14,3 +14,4 @@ FROM
 	maquinaria_verde
 GROUP BY
 	id_etp_produccion
+    
