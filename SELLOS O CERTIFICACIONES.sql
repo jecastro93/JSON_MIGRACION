@@ -7,7 +7,7 @@ SELECT
 	"nom_sello",
 	detalle,
 	"productores",
-	cantidad))
+	CAST(cantidad AS SIGNED)))
 FROM
 	etp_comercializacion
 GROUP BY
